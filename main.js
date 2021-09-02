@@ -26,8 +26,6 @@ gsap.fromTo(document.querySelector('#key-visual-section .right-title'), {
         },
         });
 
-console.log(splitTextElements);
-
 gsap.fromTo(Array.from(document.querySelectorAll('#Key-visual-section .title:not(.split-version)')),{
     transform: 'translateY(0)',
 }, {
@@ -71,3 +69,4 @@ gsap.fromTo(document.querySelector('#key-visual-section. logo'),{
             scrub: true,
         },
         });
+
