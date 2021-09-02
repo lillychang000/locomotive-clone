@@ -164,24 +164,11 @@ font-weight: 600;
     justify-content: space-between;
     }
 
-#outline-section.summery-list {
-    width: 100%;
-    height: 0px;
-    line-height: 32px;
-    font-size: 100px;
-    font-weight: 1000;
-    top: 1100vh;
-    left: 0;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    }
-
-#outline-section.button {
+#outline-section.list-button {
     width: 100%;
     height: 120px;
     line-height: 84px;
-    font-size: 50px;
+    font-size: 200px;
     font-weight: 600;
     top: 0;
     left: 0;
@@ -190,34 +177,51 @@ font-weight: 600;
     justify-content: space-between;
     }
 
+.layout-left-40 {
+    float: left;
+    width: 500px;
+    margin: 10px;
+}
 
-    @keyframes speed-control-section-entry {
-    
-        from {
-            transform: translate(100%);
-            opacity: 0;
-        }
-        to {
-            transform: translate(0%);
-            opacity: 1;
-        }
-    }
+.list-button {
+    float: left;
+    width: 700px;
+    margin: 10px;
+}
 
-#key-visual-section .speed-title {
-        animation-name: speed-control-section-entry; 
-        animation-duration: 0.6s;
-        animation-timing-function: var(--transition-timing-function);
-        animation-fill-mode: backwards;
-        animation-iteration-count: 1;
-        animation-delay: 0.6s;
-        position: absolute;
-        right: 0;
-        bottom: 40px;
-        width: 56px;
-        height: 122px;
-    }
+img.large {
+    float: right;
+    width: 546px;
+    height: 617px;
+    margin: 30px;
+    position: relative;
+}
 
-#speed-control-section.locomotive01 {
+
+img.medium {
+    float: left;
+    width: 346.5px;
+    height: 566px;
+    margin: 30px;
+    position: relative;
+}
+
+img.small {
+    float: right;
+    width: 160px;
+    height: 170px;
+    margin: 30px;
+    position: relative;
+}
+
+#speed-control-section.speed-title {
+    width: 100%;
+    height: 120px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#speed-control-section.large {
     background-image: url(locomotive01.jpg);
     background-size: 1200px 1200px;
     background-repeat: no-repeat;
@@ -230,7 +234,7 @@ font-weight: 600;
     justify-content: space-between;
 }
 
-#speed-control-section.locomotive02 {
+#speed-control-section.medium {
     background-image: url(locomotive02.jpg);
     background-size: 1200px 1200px;
     background-repeat: no-repeat;
@@ -244,7 +248,7 @@ font-weight: 600;
     justify-content: space-between;
 }
 
-#speed-control-section.locomotive03 {
+#speed-control-section.small {
     background-image: url(locomotive03.jpg);
     background-size: 1200px 1200px;
     background-repeat: no-repeat;
@@ -256,4 +260,8 @@ font-weight: 600;
     display: block;
     align-items: center;
     justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
 }
